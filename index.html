@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hello SUBANG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TwerK's">
+  <meta name="description" content="Website yang menyediakan media informasi parawisata dan budaya subang">
+  <link rel="stylesheet" type="text/css" href="resources/css/animations.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+  <link rel='icon' href='resources/img/favicon.png' type='image/x-icon' />
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="">
+          <img src="resources/img/logo-hello-subang.svg" >
+        </a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>
+            <img src="resources/icons/search-btn.png" class=" fa fa-search layout-2">
+          </li>
+          <li class="toggle-menu">
+            <div class="nav one"></div>
+            <div class="nav two"></div>
+            <div class="nav three"></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="sidebar hide">
+    <img src="resources/icons/close-btn.png" class="fa fa-times layout-2">
+    <div class="brand">
+      <a href="">
+        <span>Hello SUBANG</span>
+      </a>
+    </div>
+    <ul class="menu">
+      <a href="">
+        <li>
+          <img src="resources/icons/home.png" class="fa fa-home" alt=""> Beranda
+        </li>
+      </a>
+      <a href="pages/tourism/index.html">
+        <li>
+          <img src="resources/icons/globe.png" class="fa fa-home" alt=""> Tourism
+        </li>
+      </a>
+      <a href="pages/galery/index.html">
+        <li>
+          <img src="resources/icons/images.png" class="fa fa-home" alt=""> Gallery
+        </li>
+      </a>
+      <a href="pages/about/index.html">
+        <li>
+          <img src="resources/icons/info.png" class="fa fa-home" alt=""> About
+        </li>
+      </a>
+    </ul>
+    <div class="sign-in">
+      <a href="login/index.html">
+        <button>
+          Login
+        </button>
+      </a>
+    </div>
+    <div class="bottom-right">
+      <img src="resources/img/pattern_kepalasisingaan/sudut-pattern.svg" alt="">
+    </div>
+  </div>
+
+  <div class="search">
+    <div class="close">
+      &times;
+    </div>
+    <div class="content">
+      <h1>Ketikan kata kunci</h1>
+      <form action="" method="GET">
+        <input type="search" placeholder="" id="search" name="keyword">
+        <input type="submit" name="submit" value="submit" style="display:none;" id="submit-search">
+      </form>
+    </div>
+  </div>
+  <!-- content -->
+  <!-- Slide Banner -->
+  <section class="slide-banner" id="slide-banner">
+    <div class="slide one fade active" data-slide="1">
+      <div class="slide-image">
+        <img src="resources/img/view/chr3.jpg" class="animate-bgImageInfinite">
+        <div class="slide-dark"></div>
+      </div>
+      <div class="slide-content">
+        <div class="container">
+          <div class="caption">
+            <label class="animate-label">WISATA ALAM CIATER HIGHLAND RESORT</label>
+            <h2 class="animate-heading">
+              Melihat Indahnya Pesona Alam <br />
+              di ketinggian.
+            </h2>
+
+            <div class="border animate-border"></div>
+            <a href="pages/destination/chr/index.html">
+              <button class="animate-button">Lihat Tempat</button>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <div class="locate animate-locate">
+        <img src="resources/icons/location-btn.png" class="fa  layout-thin">
+        <label>&nbsp; Kecamatan Ciater</label>
+      </div>
+    </div>
+
+    <div class="slide two fade" data-slide="2">
+      <div class="slide-image">
+        <img src="resources/img/view/curug-cibiru1.jpg" class="animate-bgImageInfinite">
+        <div class="slide-dark"></div>
+      </div>
+      <div class="slide-content">
+        <div class="container">
+          <div class="caption">
+            <label>WISATA ALAM CURUG CIBIRU</label>
+            <h2>
+              Menikmati Kesejukan dan <br />
+              Gemerciknya Air Terjun
+            </h2>
+
+            <div class="border"></div>
+            <a href="pages/destination/curug-cibiru/index.html">
+              <button>Lihat Tempat</button>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <div class="locate animate-locate">
+        <img src="resources/icons/location-btn.png" class="fa  layout-thin">
+        <label>&nbsp; Kecamatan Ciater</label>
+      </div>
+    </div>
+
+    <div class="slide three fade" data-slide="3">
+      <div class="slide-image">
+        <img src="resources/img/view/lembah-gunung-kujang1.jpg" class="animate-bgImageInfinite">
+        <div class="slide-dark"></div>
+      </div>
+      <div class="slide-content">
+        <div class="container">
+          <div class="caption">
+            <label>WISATA PEMACINGAN LEMBAH GUNUNG KUJANG</label>
+            <h2>
+              Senangnya Memancing Ikan<br />
+              di Daerah.
+            </h2>
+
+            <div class="border"></div>
+            <a href="pages/destination/lembah-gunung-kujang/index.html">
+              <button>Lihat Tempat</button>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <div class="locate animate-locate">
+        <img src="resources/icons/location-btn.png" class="fa  layout-thin">
+        <label>&nbsp; Kecamatan Cijambe </label>
+      </div>
+    </div>
+
+    <div class="slide four fade" data-slide="4">
+      <div class="slide-image">
+        <img src="resources/img/view/kebun-teh3.jpg" class="animate-bgImageInfinite">
+        <div class="slide-dark"></div>
+      </div>
+      <div class="slide-content">
+        <div class="container">
+          <div class="caption">
+            <label>KEBUN TEH CIATER</label>
+            <h2>
+              Menelusuri Kebun Teh<br />
+              dengan Udara yang Segar.
+            </h2>
+
+            <div class="border"></div>
+            <a href="pages/destination/kebun-teh/index.html">
+              <button>Lihat Tempat</button>
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <div class="locate animate-locate">
+        <img src="resources/icons/location-btn.png" class="fa  layout-thin">
+        <label>&nbsp; Kecamatan Ciater </label>
+      </div>
+    </div>
+
+    <div class="dots">
+      <!-- commit -->
+      <div class="dots-thumb one active on" data-slide="one"></div>
+      <div class="dots-thumb two" data-slide="two"></div>
+      <div class="dots-thumb three" data-slide="three"></div>
+      <div class="dots-thumb four" data-slide="four"></div>
+
+      <a href="#intro">
+        <div class="scroll-down"></div>
+      </a>
+    </div>
+
+    <div class="loader"></div>
+  </section>
+  <!-- // Slide Banner -->
+
+  <section class="intro" id="intro">
+    <div class="pull-left">
+      <div class="container">
+        <div class="title waww">
+          <h2>APA ITU HELLO SUBANG ?</h2>
+          <h3>APA ITU HELLO SUBANG ?</h3>
+
+          <span class="line">
+            <hr class="zig">
+            <hr class="zag">
+          </span>
+        </div>
+        <div class="content">
+          <p class="justify">
+            <b>Hello Subang</b> ialah
+            Sebuah website yang menyediakan serta mengenalkan berbagai tempat wisata yang terdapat di Kabupaten
+            Subang
+            <br><br>
+            Hello Subang ini di gunakan untuk melihat berbagai jenis budaya serta parawisata yang terdapat
+            disubang secara online. Website ini di buat dengan tujuan mengenalkan keindahan yang terdapat di kota Subang
+            beserta informasi tempat wisata itu sendiri kepada `wisatawan. Baik itu wisatawan lokal ataupun mancanegara.
+          </p>
+          <a href="pages/about/index.html">
+            <button class="btn">
+              More Info
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="pull-right">
+      <iframe src="resources/img/person.html" width="" height=""></iframe>
+    </div>
+  </section>
+
+  <section class="top">
+    <div class="title">
+      <h2>TOP 3 DESTINATIONS</h2>
+      <p>Berikut merupakan rekomendasi destinasi yang wajib dikunjungi</p>
+    </div>
+
+    <div class="content">
+      <div class="list">
+        <ul class="bottom"> 
+          <li id="destination-3" class="active">
+            <div class="caption">
+              <div class="container">
+                <div class="identity">
+                  <h2>KEBUN TEH CIATER</h2>
+                  <p>
+                    <img src="resources/icons/location-btn.png" class="layout-thin"> &nbsp; Kecamatan Ciater
+                  </p>
+                  <p class="rating">
+                    <img src="resources/icons/4star.png" alt="" height="20px" width="100px">
+                  </p>
+                </div>
+                <br>
+                <button class="btn-info">
+                  <img src="resources/icons/like-icon.png" class="layout-1"> 118,128
+                </button>
+                <a href="pages/destination/kebun-teh/index.html">
+                  <button><img src="resources/icons/search-btn.png" class="layout-1"> See Details</button>
+                </a>
+              </div>
+            </div>
+            <img src="resources/img/view/kebun-teh2.jpg" class="img-hover">
+          </li>
+          <li id="destination-4">
+            <div class="caption">
+              <div class="container">
+                <div class="identity">
+                  <h2>CURUG CIBIRU</h2>
+                  <p>
+                    <img src="resources/icons/location-btn.png" class="layout-thin"> &nbsp; Kecamatan Ciater
+                  </p>
+                  <p class="rating">
+                    <img src="resources/icons/5star.png" alt="" height="20px" width="100px">
+                  </p>
+                </div>
+                <br>
+                <button class="btn-info">
+                  <img src="resources/icons/like-icon.png" class="layout-1"> 120,089
+                </button>
+                <a href="pages/destination/curug-cibiru/index.html">
+                  <button><img src="resources/icons/search-btn.png" class="layout-1"> See Details</button>
+                </a>
+              </div>
+            </div>
+            <img src="resources/img/view/curug-cibiru2.jpg" class="img-hover">
+          </li>
+          <li id="destination-5">
+            <div class="caption">
+              <div class="container">
+                <div class="identity">
+                  <h2>CIATER HIGHLAND RESORT</h2>
+                  <p><img src="resources/icons/location-btn.png" class="layout-thin"> &nbsp; Kecamatan Ciater</p>
+                  <p class="rating">
+                    <img src="resources/icons/4star.png" alt="" height="20px" width="100px">
+                  </p>
+                </div>
+                <br>
+                <button class="btn-info">
+                  <img src="resources/icons/like-icon.png" class="layout-1"> 119,156
+                </button>
+                <a href="pages/destination/chr/index.html">
+                  <button><img src="resources/icons/search-btn.png" class="layout-1"> See Details</button>
+                </a>
+              </div>
+            </div>
+            <img src="resources/img/view/chr3.jpg" class="img-hover">
+          </li>
+      </div>
+      <ul class="dots">
+        <li data-destination="3" class="active"></li>
+        <li data-destination="4"></li>
+        <li data-destination="5"></li>
+      </ul>
+      <a href="pages/tourism/index.html">
+        <button class="btn-flat">
+          Load More
+        </button>
+      </a>
+    </div>
+  </section>
+
+  <section class="testimonial parallax" data-value="0.2">
+    <div class="container">
+      <div class="title">
+        <img src="resources/img/quote-icon.png">
+      </div>
+      <div class="content">
+        <div class="caption-switcher" id="caption1">
+          <p>
+            Waktu itu saya kesini ketika masih dalam pembangunan.
+            Maskipun dalam pembangunan sudah terasa nyaman dengan rasa alam yang indah.
+            pokoknya rekomended banget deh buat yang ingin manjaain mata dengan air yang biru.
+          </p>
+
+          <div class="label">
+            <h2>Maryam Azzahro</h2>
+            <h4>Pengunjung Curug Cibiru</h4>
+          </div>
+
+        </div>
+
+        <div class="caption-switcher selected" id="caption2">
+          <p>
+            Hampir setiap liburan saya kesana makan - makan bersama keluarga sembari menikmati pemandangan yang kebun
+            teh yang hijau. saya sering membawa makan dan tikar untuk digunakan disana nanti sehingga bisa menghemat isi
+            dompet
+          </p>
+
+          <div class="label">
+            <h2>Fadhil Galuh</h2>
+            <h4>Pengunjung Kebun Teh Ciater</h4>
+          </div>
+
+        </div>
+
+        <div class="caption-switcher" id="caption3">
+          <p>Tempatnya sesuai dengan gambar yang ada di internet, pemandangan nya indah dan cocok untuk dijadikan spot
+            berfoto bersama keluarga.
+            Fasilitasnya juga lengkap dan biaya masuk serta tansportnya murah meriah.</p>
+          <div class="label">
+            <h2>Zahra Maharani</h2>
+            <h4>Pengunjung Ciater Highland Resort</h4>
+          </div>
+
+        </div>
+
+        <div class="image">
+          <ul>
+            <li class="link-img" style="visibility:hidden;">
+              <a href="#"></a>
+            </li>
+            <li class="tmb-img">
+              <img src="resources/img/testi/maryam.jpeg" data-target="caption1">
+            </li>
+            <li class="tmb-img selected">
+              <img src="resources/img/testi/fadhil.jpeg" data-target="caption2">
+            </li>
+            <li class="tmb-img">
+              <img src="resources/img/testi/zahra2.jpeg" data-target="caption3">
+            </li>
+            <li class="link-img" style="visibility:hidden;">
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end cotent -->
+  <footer class="footer">
+    <div class="link-upload">
+      <div class="container">
+        <p>Punya tempat wisata keren yang ingin membuat nya di kenal masyarakat ? <br> klik tombol dibawah</p>
+        <a href="login/index.html">
+          <button class="btn">
+            Upload
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="legal">
+      <img src="resources/img/pattern_kepalasisingaan/sudut-pattern.svg" alt="" class="bottom-right">
+      <div class="nav">
+        <div class="brand" style="position:relative;">
+          <img src="resources/img/logo-360.svg" alt="">
+          <label style="position:absolute;top:20px;">
+            Hello SUBANG
+          </label>
+        </div>
+        <ul class="menu">
+          <a href="https://web.facebook.com/Hello-subang" target="_blank">
+            <li>
+              <img src="resources/icons/fb.png" alt="">
+            </li>
+          </a>
+          <a href="https://www.instagram.com/hello_subang/" target="_blank">
+            <li>
+              <img src="resources/icons/ig.png" alt="">
+            </li>
+          </a>
+        </ul>
+      </div>
+      <p class="copyright">
+        &copy; 2023 Septian Pradipta
+      </p>
+    </div>
+  </footer>
+
+  <!-- arrow top -->
+  <a href="#slide-banner">
+    <div class="arrow-top out">
+      <img src="resources/icons/double-arrow.png" class="fa fa-angle-double-up layout-1">
+    </div>
+  </a>
+
+  <script type="text/javascript" src="resources/js/jquery.min.js"></script>
+  <script type="text/javascript" src="resources/js/jquery.parallax.js"></script>
+  <script type="text/javascript" src="resources/js/jquery.smooth-scroll.min.js"></script>
+  <script type="text/javascript" src="resources/js/custom.js"></script>
+</body>
+
+</html>
